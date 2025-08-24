@@ -392,7 +392,7 @@ Cette API utilise JWT (JSON Web Tokens) pour l'authentification.
         },
         {
             'name': 'SGI',
-            'description': 'Gestion des Sociétés de Gestion d\'Investissement et matching'
+            'description': 'Gestion des Sociétés de Gestion d\'Investissement et matching '
         },
         {
             'name': 'Savings Challenge',
