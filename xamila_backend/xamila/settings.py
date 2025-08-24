@@ -107,8 +107,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': config('DB_NAME', default='xamila'),
-        'USER': config('DB_USER', default='root'),
-        'PASSWORD': config('DB_PASSWORD', default='root'),
+        #'USER': config('DB_USER', default='root'),
+        #'PASSWORD': config('DB_PASSWORD', default='root'),
+        'USER': config('DB_USER', default='xamila'),
+        'PASSWORD': config('DB_PASSWORD', default='xamil@IFE2025'),
         'HOST': config('DB_HOST', default='localhost'),
         'PORT': config('DB_PORT', default='3306'),
         'OPTIONS': {
